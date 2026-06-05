@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navaneeth K | ECE Student, Video Editor & Content Creator</title>
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Portfolio of Navaneeth K, an Electronics & Communication Engineering Student and Video Editor specializing in automation, DaVinci Resolve, and technology projects.">
+    <meta name="keywords" content="Navaneeth K, Portfolio, ECE Student, Video Editor, DaVinci Resolve, Arduino, Human Follower Car, Smart Parking, PCB Design">
+    <meta name="author" content="Navaneeth K">
+    
+    <!-- Google Fonts: Outfit (Headings) & Inter (Body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="dark-theme">
+    <!-- Cursor Glow Background Element -->
+    <div id="cursor-glow"></div>
+    <div class="grid-overlay"></div>
+    <div class="glow-orb orb-1"></div>
+    <div class="glow-orb orb-2"></div>
+
+    <!-- Navigation Bar -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo" id="nav-logo">
+                <span class="logo-accent">&lt;</span>NAVANEETH K<span class="logo-accent"> /&gt;</span>
+            </a>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link active" id="link-home">Home</a>
+                <a href="#about" class="nav-link" id="link-about">About</a>
+                <a href="#skills" class="nav-link" id="link-skills">Skills</a>
+                <a href="#projects" class="nav-link" id="link-projects">Projects</a>
+                <a href="#contact" class="nav-link" id="link-contact">Contact</a>
+            </nav>
+
+            <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation menu">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-container container">
+                <div class="hero-content animate-on-load">
+                    <span class="welcome-badge"><i data-lucide="sparkles"></i> Welcome to my space</span>
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="neon-text">NAVANEETH K</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        Electronics & Communication Engineering Student <span class="divider">|</span> Video Editor & Content Creator
+                    </p>
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn btn-primary" id="cta-view-work">
+                            <span>View My Work</span>
+                            <i data-lucide="arrow-right"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary" id="cta-connect">
+                            <span>Let's Connect</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="hero-visual animate-on-load delay-1">
+                    <div class="visual-card">
+                        <div class="card-inner">
+                            <div class="code-header">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                                <span class="file-name">navaneeth.json</span>
+                            </div>
+                            <pre class="code-body"><code>{
+  <span class="key">"name"</span>: <span class="val">"Navaneeth K"</span>,
+  <span class="key">"role"</span>: <span class="val">"ECE Student & Creator"</span>,
+  <span class="key">"skills"</span>: [
+    <span class="val">"Arduino"</span>,
+    <span class="val">"DaVinci Resolve"</span>,
+    <span class="val">"PCB Prototyping"</span>
+  ],
+  <span class="key">"passion"</span>: <span class="val">"Combining Engineering with Creativity"</span>,
+  <span class="key">"status"</span>: <span class="val">"Constantly Learning"</span>
+}</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <a href="#about" class="scroll-down" aria-label="Scroll down to About section">
+                <span class="mouse-icon">
+                    <span class="mouse-wheel"></span>
+                </span>
+            </a>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="about-section section-padding scroll-reveal">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">01. Discovery</span>
+                    <h2 class="section-title">About Me</h2>
+                    <div class="section-underline"></div>
+                </div>
+                
+                <div class="about-content grid-2">
+                    <div class="about-text-pane">
+                        <p class="lead-text">
+                            I am an Electronics and Communication Engineering (ECE) diploma student with a strong interest in electronics, automation, and technology-driven problem solving.
+                        </p>
+                        <p>
+                            I enjoy learning through practical projects and experimenting with sensors, microcontrollers, and automation systems to create solutions for real-world challenges.
+                        </p>
+                        <p>
+                            Alongside my engineering studies, I have a passion for video editing and digital content creation. My interest in editing began in 2018, and I became more serious about developing my skills from 2022 onward. Currently, I work primarily with <strong>DaVinci Resolve</strong> and continue to improve my creative and technical editing abilities.
+                        </p>
+                        <p>
+                            I am always eager to explore new technologies, enhance my technical knowledge, and develop innovative projects that combine creativity with engineering.
+                        </p>
+                    </div>
+                    
+                    <div class="about-highlights-pane">
+                        <div class="highlight-box">
+                            <div class="highlight-icon-wrap">
+                                <i data-lucide="cpu" class="highlight-icon"></i>
+                            </div>
+                            <div class="highlight-details">
+                                <h3>Engineering & Tech</h3>
+                                <p>Fascinated by circuit design, microcontroller automation, and hands-on system building.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="highlight-box">
+                            <div class="highlight-icon-wrap">
+                                <i data-lucide="video" class="highlight-icon"></i>
+                            </div>
+                            <div class="highlight-details">
+                                <h3>Creative Editing</h3>
+                                <p>Crafting visually engaging stories since 2018. Experienced with DaVinci Resolve color and editing workflows.</p>
+                            </div>
+                        </div>
+
+                        <div class="highlight-box">
+                            <div class="highlight-icon-wrap">
+                                <i data-lucide="git-pull-request" class="highlight-icon"></i>
+                            </div>
+                            <div class="highlight-details">
+                                <h3>Practical Philosophy</h3>
+                                <p>Believing in learning by doing, converting theoretical electronics into physical, working devices.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section section-padding scroll-reveal">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">02. Expertise</span>
+                    <h2 class="section-title">My Skills</h2>
+                    <div class="section-underline"></div>
+                </div>
+                
+                <div class="skills-grid grid-3">
+                    <!-- Column 1: Electronics & Technology -->
+                    <div class="skills-card">
+                        <div class="skills-card-header">
+                            <div class="skills-icon-bg">
+                                <i data-lucide="circuit-board"></i>
+                            </div>
+                            <h3>Electronics & Tech</h3>
+                        </div>
+                        <div class="skills-list">
+                            <div class="skill-pill">Arduino Programming</div>
+                            <div class="skill-pill">Sensor Integration</div>
+                            <div class="skill-pill">Automation Projects</div>
+                            <div class="skill-pill">Hardware Prototyping</div>
+                            <div class="skill-pill">Electronics Troubleshooting</div>
+                            <div class="skill-pill">Project Development</div>
+                            <div class="skill-pill">System Testing</div>
+                        </div>
+                    </div>
+
+                    <!-- Column 2: Software & Creative Tools -->
+                    <div class="skills-card">
+                        <div class="skills-card-header">
+                            <div class="skills-icon-bg">
+                                <i data-lucide="clapperboard"></i>
+                            </div>
+                            <h3>Creative & Software</h3>
+                        </div>
+                        <div class="skills-list">
+                            <div class="skill-pill">DaVinci Resolve</div>
+                            <div class="skill-pill">CapCut</div>
+                            <div class="skill-pill">VN Editor</div>
+                            <div class="skill-pill">Pixellab</div>
+                            <div class="skill-pill">PicsArt</div>
+                            <div class="skill-pill font-italic">AI Productivity Tools</div>
+                        </div>
+                    </div>
+
+                    <!-- Column 3: Soft Skills -->
+                    <div class="skills-card">
+                        <div class="skills-card-header">
+                            <div class="skills-icon-bg">
+                                <i data-lucide="users"></i>
+                            </div>
+                            <h3>Soft Skills</h3>
+                        </div>
+                        <div class="skills-list">
+                            <div class="skill-pill">Problem Solving</div>
+                            <div class="skill-pill">Technical Learning</div>
+                            <div class="skill-pill">Team Collaboration</div>
+                            <div class="skill-pill">Project Planning</div>
+                            <div class="skill-pill">Self-Improvement</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Projects Section -->
+        <section id="projects" class="projects-section section-padding scroll-reveal">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">03. Creations</span>
+                    <h2 class="section-title">Featured Projects</h2>
+                    <div class="section-underline"></div>
+                </div>
+                
+                <div class="projects-grid grid-3">
+                    <!-- Card 1: Human Follower Car -->
+                    <div class="project-card" id="project-follower-car">
+                        <div class="project-glow"></div>
+                        <div class="project-card-content">
+                            <div class="project-icon-row">
+                                <i data-lucide="bot" class="project-icon"></i>
+                                <span class="project-number">01</span>
+                            </div>
+                            <h3 class="project-title">Human Follower Car</h3>
+                            <p class="project-overview">
+                                An Arduino-based robotic vehicle designed to follow a person automatically while maintaining a suitable distance, demonstrating practical use of sensors, motor control, and autonomous movement.
+                            </p>
+                            
+                            <!-- Collapsible details -->
+                            <div class="project-details collapsed" id="details-follower-car">
+                                <h4 class="details-heading">Working Principle & Features</h4>
+                                <ul class="details-list">
+                                    <li>Uses Ultrasonic & IR sensor array to map human presence in front.</li>
+                                    <li>Embedded obstacle avoidance algorithms prevent crashes.</li>
+                                    <li>Continuous servo tracking allows real-time adjustment of motor rotation.</li>
+                                    <li>Designed with low-power DC gear motors and custom chassis.</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="project-tech-badges">
+                                <span class="badge">Arduino Uno</span>
+                                <span class="badge">Ultrasonic Sensor</span>
+                                <span class="badge">DC Gear Motors</span>
+                                <span class="badge">Servo Motor</span>
+                                <span class="badge">Motor Driver Module</span>
+                            </div>
+                            
+                            <div class="project-actions">
+                                <button class="btn-project btn-details-toggle" data-target="details-follower-car">
+                                    <span>Details</span>
+                                    <i data-lucide="chevron-down" class="toggle-icon"></i>
+                                </button>
+                                <a href="https://drive.google.com/drive/folders/1P_Cj3a76FV9xOcreKdZxXNySnkpS4QZM" target="_blank" rel="noopener noreferrer" class="btn-project btn-project-demo" data-project="Human Follower Car">
+                                    <span>Demo / GitHub</span>
+                                    <i data-lucide="external-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 2: Smart Parking Ground -->
+                    <div class="project-card" id="project-smart-parking">
+                        <div class="project-glow"></div>
+                        <div class="project-card-content">
+                            <div class="project-icon-row">
+                                <i data-lucide="car" class="project-icon"></i>
+                                <span class="project-number">02</span>
+                            </div>
+                            <h3 class="project-title">Smart Parking Ground</h3>
+                            <p class="project-overview">
+                                A parking management system developed to monitor parking slot occupancy and provide users with real-time availability via a 16x2 I2C LCD display and sound announcements using a DF Player mini speaker setup.
+                            </p>
+                            
+                            <!-- Collapsible details -->
+                            <div class="project-details collapsed" id="details-smart-parking">
+                                <h4 class="details-heading">Working Principle & Features</h4>
+                                <ul class="details-list">
+                                    <li>Utilizes infrared occupancy sensors in each slot for instant detection.</li>
+                                    <li>Interfaced using I2C protocol to simplify LCD wire routing.</li>
+                                    <li>DF Player Mini triggers audio clips to guide drivers audibly.</li>
+                                    <li>Centralized Arduino microcontroller manages logical flow and states.</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="project-tech-badges">
+                                <span class="badge">Arduino Uno</span>
+                                <span class="badge">Occupancy Sensors</span>
+                                <span class="badge">16x2 LCD</span>
+                                <span class="badge">DF Player Mini</span>
+                                <span class="badge">Embedded Logic</span>
+                            </div>
+                            
+                            <div class="project-actions">
+                                <button class="btn-project btn-details-toggle" data-target="details-smart-parking">
+                                    <span>Details</span>
+                                    <i data-lucide="chevron-down" class="toggle-icon"></i>
+                                </button>
+                                <a href="https://drive.google.com/drive/folders/1ooIPmnARpl5I4b2ihQJqA-0LQVjHsCGO" target="_blank" rel="noopener noreferrer" class="btn-project btn-project-demo" data-project="Smart Parking Ground">
+                                    <span>Demo / GitHub</span>
+                                    <i data-lucide="external-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 3: DIY PCB LED Blinker Circuit -->
+                    <div class="project-card" id="project-led-blinker">
+                        <div class="project-glow"></div>
+                        <div class="project-card-content">
+                            <div class="project-icon-row">
+                                <i data-lucide="activity" class="project-icon"></i>
+                                <span class="project-number">03</span>
+                            </div>
+                            <h3 class="project-title">DIY PCB LED Blinker</h3>
+                            <p class="project-overview">
+                                A self-fabricated LED blinking circuit configured in astable mode using a 555 Timer IC. Manufactured on a custom PCB using the etching method to master soldering, circuit assembly, and practical hardware prototyping.
+                            </p>
+                            
+                            <!-- Collapsible details -->
+                            <div class="project-details collapsed" id="details-led-blinker">
+                                <h4 class="details-heading">Working Principle & Features</h4>
+                                <ul class="details-list">
+                                    <li>555 Timer IC operating in astable mode generates continuous pulse train.</li>
+                                    <li>Features variable blinking speeds via potentiometer adjustments.</li>
+                                    <li>Hand-crafted custom board etching using ferric chloride solutions.</li>
+                                    <li>Integrated audio buzzer feedback synchronized with blinking pulses.</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="project-tech-badges">
+                                <span class="badge">555 Timer IC</span>
+                                <span class="badge">Custom PCB Etching</span>
+                                <span class="badge">Potentiometer</span>
+                                <span class="badge">Buzzer</span>
+                                <span class="badge">Soldering</span>
+                            </div>
+                            
+                            <div class="project-actions">
+                                <button class="btn-project btn-details-toggle" data-target="details-led-blinker">
+                                    <span>Details</span>
+                                    <i data-lucide="chevron-down" class="toggle-icon"></i>
+                                </button>
+                                <a href="https://drive.google.com/drive/folders/1vsEOFlLQYDNNtMqQRfffH0kJ0uWvlrhc" target="_blank" rel="noopener noreferrer" class="btn-project btn-project-demo" data-project="DIY PCB LED Blinker Circuit">
+                                    <span>Demo / GitHub</span>
+                                    <i data-lucide="external-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Career Objective & Contact Section -->
+        <section id="contact" class="contact-section section-padding scroll-reveal">
+            <div class="container">
+                <div class="objective-card-wrapper">
+                    <div class="objective-card">
+                        <div class="quote-icon-box">
+                            <i data-lucide="quote"></i>
+                        </div>
+                        <h3>Career Objective</h3>
+                        <p class="objective-text">
+                            "To build a career in electronics and technology by continuously learning, developing practical solutions, and applying engineering knowledge to real-world challenges."
+                        </p>
+                    </div>
+                </div>
+
+                <div class="contact-grid grid-2">
+                    <div class="contact-info">
+                        <div class="section-header text-left">
+                            <span class="section-tag">04. Connection</span>
+                            <h2 class="section-title">Get In Touch</h2>
+                            <div class="section-underline"></div>
+                        </div>
+                        <p class="contact-desc">
+                            Whether you want to discuss a potential electronics project, video editing collaboration, or simply have a chat about technology, my inbox is always open.
+                        </p>
+                        
+                        <div class="contact-details-list">
+                            <div class="contact-item">
+                                <div class="contact-item-icon">
+                                    <i data-lucide="mail"></i>
+                                </div>
+                                <div class="contact-item-text">
+                                    <span>Email Me Direct</span>
+                                    <a href="mailto:navaneethk9048@gmail.com" class="contact-link" id="email-link">navaneethk9048@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-item-icon">
+                                    <i data-lucide="map-pin"></i>
+                                </div>
+                                <div class="contact-item-text">
+                                    <span>Location</span>
+                                    <span class="contact-text-val">Kozhikode, Kerala, India</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="social-links-container">
+                            <span class="social-label">Follow / Message me:</span>
+                            <div class="social-links">
+                                <a href="https://www.linkedin.com/in/navaneeth-k-60b709282?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn Profile" id="social-linkedin">
+                                    <img src="https://img.magnific.com/premium-vector/linkedin-icon_1201467-144.jpg" alt="LinkedIn" class="social-logo-img">
+                                </a>
+                                <a href="https://github.com/connect-navaneethk" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub Profile" id="social-github">
+                                    <img src="https://static.vecteezy.com/system/resources/previews/016/833/872/non_2x/github-logo-git-hub-icon-on-white-background-free-vector.jpg" alt="GitHub" class="social-logo-img">
+                                </a>
+                                <a href="https://www.instagram.com/navanee1h_?igsh=MWp5ZTdwazB6ejZqcQ==" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Instagram Profile" id="social-instagram">
+                                    <img src="https://img.magnific.com/premium-vector/instagram-vector-logo-icon-social-media-logotype_901408-392.jpg" alt="Instagram" class="social-logo-img">
+                                </a>
+                                <a href="https://www.threads.com/@navanee1h_" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Threads Profile" id="social-threads">
+                                    <img src="https://img.magnific.com/free-vector/threads-app-logo-icon-isolated-white-background_1017-45264.jpg" alt="Threads" class="social-logo-img">
+                                </a>
+                                <a href="https://x.com/Navaneeth_ff" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="X Profile" id="social-x">
+                                    <img src="https://img.magnific.com/premium-vector/x-app-logo_1097161-43.jpg" alt="X" class="social-logo-img">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-pane">
+                        <form id="contact-form" class="contact-form">
+                            <!-- Web3Forms Integration: Paste your Access Key here. Free keys from https://web3forms.com -->
+                            <input type="hidden" name="access_key" value="83b8cbba-4f4c-4e96-a38a-3f4fe1fcf72d">
+                            <input type="hidden" name="from_name" value="Navaneeth Portfolio Contact">
+                            <input type="hidden" name="subject" value="New Contact Form Submission">
+                            
+                            <div class="form-row grid-2">
+                                <div class="form-group">
+                                    <label for="name">Name</label>
+                                    <input type="text" id="name" name="name" placeholder="John Doe" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject" placeholder="Project Collaboration" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5" placeholder="Let's build something cool..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-submit" id="form-submit-btn">
+                                <span>Send Message</span>
+                                <i data-lucide="send"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <p class="footer-copy">&copy; 2026 NAVANEETH K. All Rights Reserved.</p>
+            <p class="footer-tagline">Designed & Built with <i data-lucide="heart" class="heart-icon"></i> and engineering precision.</p>
+        </div>
+    </footer>
+
+    <!-- Popup Toast Notification System -->
+    <div id="toast-container" class="toast-container"></div>
+
+    <!-- Script Entrypoint -->
+    <script src="script.js"></script>
+</body>
+</html>
